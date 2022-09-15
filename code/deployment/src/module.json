@@ -1,0 +1,19 @@
+{
+  "$schema-version": "0.0.1",
+  "description": "ML Framework",
+  "image": {
+    "repository": "xx.azurecr.io/xxscoring",
+    "tag": {
+      "version": "#{Build.BuildNumber}#",
+      "platforms": {
+        "amd64": ""
+      }
+    },
+    "envVariables": {
+      "env": "aci"
+    },
+    "buildOptions": [],
+    "contextPath": ""
+  },
+  "language": "python"
+}

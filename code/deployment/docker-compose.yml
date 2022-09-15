@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  poc_mlproject:
+    build: ./src
+    container_name: "from_azure_container_registery"
+    image: xx.azurecr.io/xxscoring
